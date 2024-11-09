@@ -1,0 +1,33 @@
+body {
+  background-color: gainsboro;
+
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  text-align: center;
+  div {
+    font-size: 40px;
+    font-style: oblique;
+    color: rgba(212, 114, 52, 0.634);
+    font-weight: 800;
+  }
+
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid rgb(97, 94, 94);
+    font-size: 130px;
+    text-align: center;
+    background: rgb(159, 153, 153);
+  }
+
+  .sqr:hover {
+    background: bisque;
+    cursor: pointer;
+  }
+}
